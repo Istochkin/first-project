@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;600;700&family=Roboto:wght@500;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: #212529;">
+<body>
     <header class="header__container container">
         <div class="logo">
             <a href="#"><img src="img/logo.svg" alt="logo"></a>
@@ -79,7 +79,7 @@
         </section>
         <secton class="about">
             <div class="about__container container">
-                <div class="about__img"><img src="img/aboutme.png" alt=""></div>
+                <div class="about__img-block"><img class="about__img" src="img/aboutme.png" alt="about"></div>
                 <div class="about__content">
                     <div class="intro">Who I am</div>
                     <div class="title">About Me</div>
@@ -197,51 +197,39 @@
                 </div>
             </div>
         </section>
-        <section class="start">
-            <div class="start__container container">
-                <div class="start__title">Start a project</div>
-                <div class="start__subtittle">Interested in working together? We should queue up a chat. I’ll buy the coffee.</div>
-                <button class="start__btn"><a href="#" class="start__link">Let’s do this</a></button>
-            </div>
-        </section>
     </main>
     <footer class="footer">
+        <div class="footer__top-block">
+            <div class="footer__top-block-title">Start a project</div>
+            <div class="footer__top-block-subtitle">Interested in working together? We should queue up a chat. I’ll buy the coffee.</div>
+            <button class="footer__top-block-btn">Let’s do this</button>
+        </div>
         <div class="footer__container container">
-            <div class="footer__who">
-                <div class="footer__title">Kartik Bansal.</div>
-                <div class="footer__who-text">Creative designer & front-end developer</div>
-            </div>
-            <div class="footer-list footer__list">
-                <div class="footer__titel footer-title">Useful Links</div>
-                <ul class="footer__items">
-                    <li class="footer__item">Home</li>
-                    <li class="footer__item">About</li>
-                    <li class="footer__item">Skills</li>
-                    <li class="footer__item">Portfolio</li>
-                    <li class="footer__item">Contact</li>
-                </ul>
-            </div>
-            <div class="footer-list">
-                <div class="footer__titel footer-title">Social Media</div>
-                <ul class="footer__items">
-                    <li class="footer__item">Instagram</li>
-                    <li class="footer__item">linkedin</li>
-                    <li class="footer__item">Dribbble</li>
-                    <li class="footer__item">Behance</li>
-                    <li class="footer__item">Github</li>
-                </ul>
-            </div>
-            <div class="footer__newsletter">
-                <div class="footer-title">Newsletter</div>
-                <div class="footer__text">Enter your email and get notified about news, of.</div>
-                <form class="footer__form">
-                    <div class="input">
-                        <input type="text" placeholder="Your email address" class="footer__input">
-                        <div class="footer__icon">
-                            <input class="footer__icon-svg" type="image" name="picture" src="img/submit.svg" />
-                        </div>
-                    </div>
-                </form>
+            <div class="footer__bottom-block">
+                <div class="footer-left-column">
+                    <div class="footer-left-сolumn__title">Kartik Bansal.</div>
+                    <div class="footer-left-column__text">Creative designer & front-end developer</div>
+                </div>
+                <div class="footer-cntrl-column">
+                    <div class="footer-title footer-cntrl-column__title">Useful Links</div>
+                    <div class="footer-item">Home</div>
+                    <div class="footer-item">About</div>
+                    <div class="footer-item">Skills</div>
+                    <div class="footer-item">Portfolio</div>
+                    <div class="footer-item">Contact</div>
+                </div>
+                <div class="footer-cntrl-column">
+                    <div class="footer-title footer-cntrl-column__title">Social Media</div>
+                    <div class="footer-item">Instagram</div>
+                    <div class="footer-item">linkedin</div>
+                    <div class="footer-item">Dribbble</div>
+                    <div class="footer-item">Behance</div>
+                    <div class="footer-item">Github</div>
+                </div>
+                <div class="footer-right-column">
+                    <div class="footer-title footer-right-column__title">Newsletter</div>
+                    <div class="footer-right-column__item footer-item">Enter your email and get notified about news, of.</div>
+                </div>
             </div>
         </div>
     </footer>
